@@ -34,7 +34,7 @@ class TheWhiteHouseScraper:
         page_number = soup.find_all('a', class_='page-numbers')[-1].text
         return int(page_number.replace('Page ', ''))
 
-    def get_articles(self, soup):
+    def get_articles(self, soup, category):
         """
         Extract information from articles on the page using Beautiful Soup.
         """
@@ -50,23 +50,33 @@ class TheWhiteHouseScraper:
             self.url = a_link
             article_soup = self.get_html_content()
 
-            try:
-                # Extract the section with class 'body-content'
-                body_content_section = article_soup.find('section', class_='body-content')
+            # Extract the section with class 'body-content'
+            body_content_section = article_soup.find('section', class_='body-content')
 
-                # Extract all p elements and join them with a new line
-                p_elements = body_content_section.find_all('p')
+            if category == 'speeches-remarks' or category == 'press-briefings':
+                try:
+                    # Extract all p elements with class 'has-text-align-center'
+                    location_elements = body_content_section.find_all('p', class_='has-text-align-center')
 
-                # Extract the first p element separately as variable 'location'
-                a_location = p_elements[0].get_text(separator='; ')
+                    # Extract the text from location elements and join them with '; '
+                    a_location = '; '.join(
+                        [location.get_text(separator='; ').strip() for location in location_elements])
 
-                # Extract the rest of the p elements and join them with a new line
-                other_p_elements = p_elements[1:]
-                a_text = '\n\n'.join([p.get_text(separator='\n').strip() for p in other_p_elements])
-            except IndexError:
-                # Handle the case where the content is in tables
-                a_location = article_soup.find_all('table')[0].get_text(separator='; ')
-                a_text = article_soup.find_all('table')[1].get_text(separator='\n')
+                    # Remove the location elements from the list of all p elements
+                    other_p_elements = [p for p in body_content_section.find_all('p') if p not in location_elements]
+
+                    # Extract the text from the remaining p elements and join them with a new line
+                    a_text = '\n\n'.join([p.get_text(separator='\n').strip() for p in other_p_elements])
+
+                except IndexError:
+                    # Handle the case where the content is in tables
+                    a_location = article_soup.find_all('table')[0].get_text(separator='; ')
+                    a_text = article_soup.find_all('table')[1].get_text(separator='\n')
+            elif category == 'statements-releases':
+                a_location = None
+                a_text = body_content_section.get_text(separator='\n').strip()
+            else:
+                raise Exception('The category does not exist.')
 
             temp_list.append({'Title': a_title, 'Date': a_date,
                               'Category': a_category, 'Location': a_location,
