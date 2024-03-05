@@ -2,3 +2,4 @@
 .idea/
 .ipynb_checkpoints/
 geckodriver
+src/__pycache__/utils.cpython-311.pyc

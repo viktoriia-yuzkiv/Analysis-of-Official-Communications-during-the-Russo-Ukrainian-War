@@ -1,0 +1,12 @@
+pandas
+numpy
+matplotlib
+time
+requests
+bs4
+selenium
+nltk
+spacy
+re
+warnings
+statsmodels
