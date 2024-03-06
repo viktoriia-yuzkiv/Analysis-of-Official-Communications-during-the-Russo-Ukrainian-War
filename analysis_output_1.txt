@@ -1,0 +1,315 @@
+Analyzing dataset: joint_data
+
+min_df: 0.005, max_df: 0.2
+Top words associated with each topic (Count Vectorization):
+Topic 1: ahead, vaccine, certainly, yeah, okay, conversation, obviously, applause, press, price
+Topic 2: applause, drug, laughter, tweet, inflation, folk, medicare, price, reduction, tax
+Topic 3: vaccine, covid19, vaccinate, dr, vaccination, dose, datum, variant, shot, cdc
+Topic 4: eu, university, pacific, resilience, digital, commission, sustainable, clean energy, chain, trade
+Topic 5: drug, inflation, tweet, price, reduction, inflation reduction, reduction act, medicare, prescription, lower
+Topic 6: eu, applause, chain, pacific, europe, supply chain, sustainable, digital, vaccine, market
+Topic 7: university, board, director, nominee, drug, dr, assistant, judge, district, court
+Topic 8: violence, tweet, mental, mental health, israel, gun, pacific, statement, karine, democracy
+Topic 9: release, year term, sentence, district, distribute, grant, expire, effect, offense, drug
+Topic 10: clean energy, release, water, year term, bipartisan, sentence, internet, bipartisan infrastructure, infrastructure law, rural
+
+
+Top words associated with each topic (TF-IDF Vectorization):
+Topic 1: applause, vaccine, ahead, go ahead, laughter, eu, certainly, europe, price, vote
+Topic 2: applause, laughter, folk, vote, god, love, gun, kid, thank thank, remember
+Topic 3: go ahead, vaccine, ahead, certainly, vaccinate, obviously, vaccination, jen, yeah, okay
+Topic 4: fema, emergency, fema news, federal funding, university, vaccine, sharing basis, cost sharing, nominee, director
+Topic 5: vaccine, eu, vaccinate, vaccination, dose, europe, covid19, commission, member states, variant
+Topic 6: fema, applause, fema news, emergency, federal funding, sharing basis, cost sharing, eu, recovery, joseph biden
+Topic 7: vaccine, applause, vaccinate, sullivan, vaccination, covid19, dose, dr, mr sullivan, mr
+Topic 8: national emergency, executive order, emergency, declare executive, continue effect, effect beyond, anniversary date, federal register, notice state, emergency declare
+Topic 9: pacific, inflation, clean energy, supply chain, tax, chain, drug, manufacturing, indo, indo pacific
+Topic 10: sullivan, mr sullivan, mr, security advisor, advisor, advisor jake, jake sullivan, jake, sullivan speak, price
+
+Top words associated with each topic (LDA):
+Topic 1: clean energy, manufacturing, water, chain, supply chain, bipartisan, industry, bipartisan infrastructure, infrastructure law, emission
+Topic 2: ahead, conversation, karine, yeah, certainly, press, republicans, obviously, okay, price
+Topic 3: vaccine, covid19, vaccinate, vaccination, test, dr, dose, cancer, cdc, covid
+Topic 4: university, director, board, district, assistant, nominee, deputy, committee, chief, affairs
+Topic 5: eu, europe, commission, recovery, der, von, von der, der leyen, leyen, emergency
+Topic 6: applause, laughter, folk, remark, vote, democracy, love, friend, remark president, young
+Topic 7: israel, military, gaza, hamas, humanitarian, advisor, jake, security advisor, attack, civilian
+Topic 8: pacific, summit, trade, prime, prime minister, ai, sustainable, indo, indo pacific, africa
+Topic 9: drug, student, violence, education, small business, housing, medicare, health care, affordable, biden harris
+Topic 10: ahead, jen, certainly, note, obviously, range, okay, border, expect, senator
+
+
+min_df: 0.005, max_df: 0.3
+Top words associated with each topic (Count Vectorization):
+Topic 1: question, talk, ahead, sure, thing, ask, white house, ukraine, happen, clear
+Topic 2: care, child, applause, school, infrastructure, worker, development, clean, serve, pay
+Topic 3: applause, pay, cost, drug, laughter, inflation, thing, folk, price, medicare
+Topic 4: ukraine, russia, european, international, technology, cooperation, war, eu, development, pacific
+Topic 5: cost, drug, inflation, price, tweet, reduction, inflation reduction, reduction act, care, clean
+Topic 6: applause, vaccine, european, eu, supply, cooperation, technology, laughter, ukraine, thing
+Topic 7: serve, drug, university, price, inflation, senior, cost, inflation reduction, reduction act, reduction
+Topic 8: ukraine, care, russia, child, european, war, russian, putin, sanction, tweet
+Topic 9: care, woman, pacific, tweet, senior, executive, official, cooperation, statement, vice
+Topic 10: ukraine, karine, make sure, funding, hear, violence, bipartisan, israel, gun, clear
+
+
+Top words associated with each topic (TF-IDF Vectorization):
+Topic 1: applause, talk, question, ukraine, thing, vaccine, ahead, russia, go ahead, european
+Topic 2: european, eu, ukraine, europe, russia, cooperation, commission, european union, minister, international
+Topic 3: ukraine, question, go ahead, russia, ahead, talk, certainly, obviously, putin, russian
+Topic 4: applause, european, ukraine, eu, europe, union, laughter, european union, russia, green
+Topic 5: vaccine, eu, european, vaccinate, vaccination, dose, covid19, europe, recovery, variant
+Topic 6: fema, emergency, fema news, applause, federal funding, ukraine, sharing basis, assistance, cost sharing, biden jr
+Topic 7: pacific, vaccine, sullivan, indo, indo pacific, prime minister, prime, cooperation, minister, partnership
+Topic 8: vaccine, applause, vaccinate, vaccination, dose, covid19, dr, variant, eu, european
+Topic 9: national emergency, executive order, executive, emergency, declare executive, continue effect, effect beyond, anniversary date, federal register, notice state
+Topic 10: ukraine, russia, sullivan, vaccine, russian, cost, care, pay, mr sullivan, vaccinate
+
+Top words associated with each topic (LDA):
+Topic 1: care, funding, agency, expand, harris, fund, local, child, student, biden harris
+Topic 2: vaccine, covid19, vaccinate, vaccination, test, question, dr, pandemic, dose, cdc
+Topic 3: ukraine, israel, russia, war, military, nato, senior administration, china, mr, senior
+Topic 4: question, talk, ahead, sure, ask, white house, certainly, hear, thing, clear
+Topic 5: serve, university, director, board, secretary, district, assistant, nominee, school, deputy
+Topic 6: european, ukraine, eu, europe, commission, russia, union, european union, recovery, von
+Topic 7: applause, woman, laughter, fight, vice president, talk, vice, thing, vote, tell
+Topic 8: pay, cost, price, inflation, drug, worker, percent, tax, cut, medicare
+Topic 9: pacific, partnership, cooperation, international, meeting, technology, region, vice, vice president, national security
+Topic 10: clean, supply, clean energy, project, infrastructure, chain, technology, sector, supply chain, development
+
+
+min_df: 0.01, max_df: 0.2
+Top words associated with each topic (Count Vectorization):
+Topic 1: ahead, vaccine, certainly, yeah, okay, conversation, obviously, applause, press, price
+Topic 2: applause, drug, laughter, tweet, inflation, folk, medicare, price, reduction, tax
+Topic 3: vaccine, covid19, vaccinate, dr, vaccination, dose, datum, variant, shot, cdc
+Topic 4: eu, university, pacific, resilience, digital, commission, sustainable, clean energy, chain, trade
+Topic 5: drug, inflation, tweet, price, reduction, inflation reduction, reduction act, medicare, prescription, lower
+Topic 6: eu, applause, chain, europe, pacific, supply chain, sustainable, vaccine, digital, market
+Topic 7: university, board, director, nominee, drug, dr, assistant, judge, district, court
+Topic 8: violence, tweet, pacific, mental, gun, mental health, israel, statement, karine, democracy
+Topic 9: clean energy, internet, bipartisan, tweet, water, rural, statement, bipartisan infrastructure, manufacturing, infrastructure law
+Topic 10: tweet, jen, statement, mental, eu, mental health, note, range, commission, applause
+
+
+Top words associated with each topic (TF-IDF Vectorization):
+Topic 1: applause, vaccine, ahead, go ahead, laughter, eu, europe, certainly, price, vote
+Topic 2: applause, laughter, folk, vote, god, love, gun, kid, remember, thank thank
+Topic 3: go ahead, vaccine, ahead, certainly, vaccinate, obviously, vaccination, jen, yeah, okay
+Topic 4: vaccine, fema, university, emergency, vaccinate, nominee, director, vaccination, fema news, assistant
+Topic 5: eu, vaccine, europe, commission, member states, green, recovery resilience, vaccination, dose, vaccinate
+Topic 6: fema, emergency, fema news, federal funding, applause, cost sharing, biden jr, joseph biden, president joseph, joseph
+Topic 7: vaccine, applause, vaccinate, vaccination, covid19, dose, sullivan, dr, variant, mr sullivan
+Topic 8: pacific, inflation, clean energy, tax, supply chain, chain, sullivan, drug, manufacturing, indo
+Topic 9: national emergency, executive order, emergency, declare executive, federal register, emergency declare, declare, dear madam, usc, register
+Topic 10: sullivan, mr sullivan, security advisor, advisor, national emergency, mr, advisor jake, jake sullivan, jake, executive order
+
+Top words associated with each topic (LDA):
+Topic 1: clean energy, chain, supply chain, manufacturing, industry, resilience, innovation, ai, water, emission
+Topic 2: eu, europe, commission, european union, digital, recovery, der, von, von der, der leyen
+Topic 3: vaccine, covid19, vaccinate, vaccination, dr, test, dose, cdc, covid, shot
+Topic 4: military, senior administration, china, administration official, nato, russian, putin, ally, sanction, mr
+Topic 5: student, violence, housing, education, biden harris, harris administration, small business, tribal, health care, affordable
+Topic 6: university, director, board, district, assistant, deputy, nominee, chief, committee, affairs
+Topic 7: ahead, karine, conversation, certainly, israel, yeah, republicans, obviously, okay, yesterday
+Topic 8: pacific, israel, prime, prime minister, statement, readout, advisor, security advisor, regional, indo
+Topic 9: applause, laughter, folk, vote, remark, drug, love, joe, democracy, price
+Topic 10: ahead, jen, certainly, note, obviously, okay, range, yeah, expect, senator
+
+
+min_df: 0.01, max_df: 0.3
+Top words associated with each topic (Count Vectorization):
+Topic 1: question, talk, ahead, sure, thing, ask, white house, ukraine, happen, clear
+Topic 2: care, child, applause, school, infrastructure, worker, development, clean, serve, pay
+Topic 3: applause, pay, cost, drug, laughter, inflation, thing, folk, price, medicare
+Topic 4: ukraine, russia, european, international, technology, cooperation, war, eu, development, pacific
+Topic 5: cost, drug, inflation, tweet, price, reduction, inflation reduction, reduction act, care, medicare
+Topic 6: applause, vaccine, european, supply, eu, cooperation, ukraine, technology, vaccinate, europe
+Topic 7: serve, university, drug, price, inflation, senior, cost, inflation reduction, reduction act, medicare
+Topic 8: ukraine, care, russia, child, european, war, russian, putin, sanction, tweet
+Topic 9: care, woman, pacific, tweet, senior, executive, official, cooperation, statement, region
+Topic 10: ukraine, karine, make sure, funding, hear, bipartisan, israel, violence, talk, clear
+
+
+Top words associated with each topic (TF-IDF Vectorization):
+Topic 1: applause, talk, ukraine, question, thing, vaccine, ahead, russia, european, go ahead
+Topic 2: european, ukraine, eu, russia, europe, cooperation, commission, minister, european union, partnership
+Topic 3: ukraine, question, russia, go ahead, ahead, talk, certainly, nato, russian, putin
+Topic 4: applause, european, eu, europe, ukraine, union, european union, laughter, green, commission
+Topic 5: vaccine, eu, vaccinate, vaccination, european, dose, covid19, recovery, variant, commission
+Topic 6: fema, emergency, fema news, applause, federal funding, assistance, cost sharing, biden jr, joseph biden, joseph
+Topic 7: pacific, vaccine, sullivan, indo, indo pacific, prime minister, prime, cooperation, minister, partnership
+Topic 8: vaccine, applause, vaccinate, vaccination, dose, covid19, dr, variant, eu, european
+Topic 9: ukraine, sullivan, russia, vaccine, mr sullivan, cost, advisor, security advisor, mr, vaccinate
+Topic 10: national emergency, executive order, ukraine, executive, care, woman, order, emergency, declare executive, federal register
+
+Top words associated with each topic (LDA):
+Topic 1: question, talk, ahead, sure, ask, thing, white house, clear, hear, certainly
+Topic 2: european, eu, europe, union, commission, european union, gas, ukraine, market, clean
+Topic 3: vaccine, covid19, vaccinate, vaccination, test, dr, dose, pandemic, cancer, cdc
+Topic 4: applause, thing, laughter, lot, folk, pay, talk, percent, happen, gun
+Topic 5: partnership, pacific, technology, cooperation, international, development, region, summit, initiative, advance
+Topic 6: infrastructure, funding, clean, project, worker, fund, agency, expand, local, small
+Topic 7: care, drug, cost, woman, pay, vote, inflation, price, medicare, statement
+Topic 8: ukraine, israel, russia, national security, gaza, minister, war, hamas, assistance, prime
+Topic 9: serve, university, director, secretary, board, assistant, district, nominee, school, deputy
+Topic 10: applause, remark, fight, vice, vice president, love, history, honor, young, woman
+
+
+min_df: 0.05, max_df: 0.2
+Top words associated with each topic (Count Vectorization):
+Topic 1: ahead, vaccine, certainly, yeah, okay, conversation, obviously, applause, press, price
+Topic 2: applause, drug, laughter, folk, inflation, medicare, price, vote, tax, reduction
+Topic 3: vaccine, covid19, vaccinate, vaccination, dr, dose, datum, variant, shot, cdc
+Topic 4: eu, university, clean energy, resilience, pacific, commission, digital, chain, sustainable, education
+Topic 5: drug, inflation, price, reduction, inflation reduction, reduction act, medicare, prescription, lower, prescription drug
+Topic 6: eu, applause, chain, europe, supply chain, pacific, vaccine, sustainable, digital, market
+Topic 7: university, board, director, nominee, drug, assistant, dr, judge, district, court
+Topic 8: violence, pacific, gun, mental, mental health, drug, democracy, israel, cancer, statement
+Topic 9: clean energy, pacific, manufacturing, supply chain, chain, water, reduction, bipartisan, reduction act, inflation reduction
+Topic 10: eu, gun, violence, commission, ahead, resilience, reduction, statement, recovery, legislation
+
+
+Top words associated with each topic (TF-IDF Vectorization):
+Topic 1: applause, vaccine, ahead, go ahead, eu, europe, laughter, mr, democracy, price
+Topic 2: applause, laughter, folk, vote, god, love, kid, gun, thank thank, remember
+Topic 3: go ahead, ahead, vaccine, certainly, vaccinate, obviously, yeah, conversation, okay, anything
+Topic 4: sullivan, prime minister, prime, mr, israel, security advisor, pacific, applause, advisor, nato
+Topic 5: university, director, assistant, nominee, deputy, board, district, affairs, ambassador, chief
+Topic 6: vaccine, fema, emergency, applause, joseph biden, biden jr, joseph, president joseph, jr, vaccinate
+Topic 7: fema, emergency, biden jr, joseph biden, joseph, jr, president joseph, recovery, disaster, declare
+Topic 8: pacific, indo, clean energy, indo pacific, inflation, supply chain, chain, manufacturing, tax, drug
+Topic 9: sullivan, security advisor, mr, advisor, jake sullivan, jake, fema, recovery, eu, emergency
+Topic 10: violence, gun, israel, gender, crime, enforcement, law enforcement, student, attack, harris administration
+
+Top words associated with each topic (LDA):
+Topic 1: vaccine, covid19, vaccinate, vaccination, test, dr, cancer, dose, cdc, covid
+Topic 2: eu, europe, commission, european union, green, transition, resilience, recovery, digital, market
+Topic 3: military, israel, putin, humanitarian, russian, nato, attack, sanction, civilian, ally
+Topic 4: prime, prime minister, israel, mr, administration official, china, relationship, summit, mr president, press
+Topic 5: applause, laughter, folk, drug, vote, remark, love, democracy, god, medicare
+Topic 6: pacific, summit, regional, chain, sustainable, space, trade, supply chain, digital, enhance
+Topic 7: clean energy, manufacturing, bipartisan, water, small business, reduction, housing, affordable, inflation, tribal
+Topic 8: university, director, advisor, board, district, assistant, nominee, deputy, security advisor, committee
+Topic 9: violence, gun, statement, joe biden, president joe, joe, safety, mental, enforcement, executive order
+Topic 10: ahead, certainly, yeah, conversation, okay, obviously, yesterday, republicans, american people, couple
+
+
+min_df: 0.05, max_df: 0.3
+Top words associated with each topic (Count Vectorization):
+Topic 1: question, talk, ahead, sure, thing, ask, white house, ukraine, happen, clear
+Topic 2: care, child, applause, school, infrastructure, development, worker, clean, serve, pay
+Topic 3: applause, pay, laughter, cost, drug, thing, folk, inflation, vote, medicare
+Topic 4: ukraine, russia, european, international, war, technology, cooperation, eu, clean, russian
+Topic 5: cost, drug, inflation, price, reduction, inflation reduction, reduction act, care, medicare, clean
+Topic 6: applause, vaccine, european, supply, eu, vaccinate, cooperation, ukraine, covid19, dose
+Topic 7: serve, university, drug, inflation, price, senior, cost, reduction, inflation reduction, reduction act
+Topic 8: ukraine, russia, care, child, russian, european, putin, war, sanction, drug
+Topic 9: care, woman, drug, pacific, senior, executive, cooperation, order, vice, international
+Topic 10: child, tax, worker, care, pay, european, union, supply, chain, eu
+
+
+Top words associated with each topic (TF-IDF Vectorization):
+Topic 1: applause, ukraine, talk, question, thing, european, russia, vaccine, ahead, sure
+Topic 2: european, eu, ukraine, cooperation, russia, europe, commission, minister, partnership, sullivan
+Topic 3: serve, university, director, assistant, applause, nominee, vice, school, board, care
+Topic 4: european, eu, europe, union, commission, applause, european union, green, member states, digital
+Topic 5: applause, laughter, ukraine, minister, prime minister, prime, vice, democracy, mr, european
+Topic 6: serve, ukraine, university, european, nominee, eu, director, commission, assistant, board
+Topic 7: ukraine, fema, emergency, assistance, biden jr, joseph biden, joseph, russia, jr, president joseph
+Topic 8: vaccine, applause, vaccinate, vaccination, covid19, dose, dr, variant, emergency, eu
+Topic 9: sullivan, security advisor, advisor, mr, national security, jake sullivan, jake, vaccine, applause, vaccinate
+Topic 10: ukraine, care, russia, vaccine, woman, health care, vice president, vice, child, harris
+
+Top words associated with each topic (LDA):
+Topic 1: serve, university, director, school, secretary, district, board, vice, white house, assistant
+Topic 2: pay, cost, infrastructure, worker, inflation, care, drug, price, low, clean
+Topic 3: applause, laughter, thing, talk, lot, folk, tell, remark, happen, really
+Topic 4: meeting, pacific, minister, national security, senior, official, prime, prime minister, region, administration official
+Topic 5: agency, assistance, order, funding, emergency, resource, executive, local, harris administration, biden harris
+Topic 6: question, talk, ahead, sure, ask, thing, white house, hear, certainly, believe
+Topic 7: technology, development, partnership, sector, supply, clean, european, chain, eu, international
+Topic 8: vaccine, covid19, vaccinate, vaccination, test, pandemic, dr, dose, cdc, covid
+Topic 9: ukraine, russia, israel, war, russian, putin, humanitarian, nato, military, sanction
+Topic 10: woman, violence, gun, statement, fight, justice, joe, joe biden, democracy, care
+
+
+min_df: 0.1, max_df: 0.2
+Top words associated with each topic (Count Vectorization):
+Topic 1: ahead, vaccine, certainly, yeah, okay, conversation, obviously, press, price, yesterday
+Topic 2: vaccine, university, covid19, education, student, research, commission, eu, black, resilience
+Topic 3: vaccine, dr, covid19, datum, covid, public health, update, death, population, fully
+Topic 4: drug, price, inflation, vaccine, reduction, tax, lower, folk, laughter, vote
+Topic 5: price, drug, eu, inflation, vaccine, reduction, chain, supply chain, market, clean energy
+Topic 6: university, drug, director, board, price, inflation, dr, committee, reduction, district
+Topic 7: ahead, housing, certainly, student, rescue plan, rescue, american rescue, income, tax, workforce
+Topic 8: pacific, clean energy, supply chain, chain, statement, prime, prime minister, reduction, manufacturing, inflation
+Topic 9: drug, violence, student, pacific, black, democracy, price, release, summit, covid19
+Topic 10: eu, statement, reduction, commission, violence, inflation, legislation, clean energy, ahead, vote
+
+
+Top words associated with each topic (TF-IDF Vectorization):
+Topic 1: vaccine, ahead, mr, eu, europe, laughter, democracy, price, prime, military
+Topic 2: eu, commission, europe, prime minister, prime, digital, european union, pacific, green, sustainable
+Topic 3: prime minister, prime, mr, pacific, reaffirm, relationship, importance, china, bilateral, peace
+Topic 4: university, director, advisor, district, board, affairs, jr, mr, chief, career
+Topic 5: vaccine, covid19, dr, emergency, covid, datum, ahead, joseph, certainly, jr
+Topic 6: emergency, joseph, jr, recovery, executive order, news, inflation, price, ahead, assessment
+Topic 7: pacific, clean energy, prime, prime minister, supply chain, chain, vaccine, manufacturing, covid19, inflation
+Topic 8: emergency, joseph, jr, laughter, recovery, love, news, democracy, freedom, god
+Topic 9: violence, democracy, freedom, human right, attack, harris administration, civil, biden harris, military, enforcement
+Topic 10: mr, advisor, price, russian, putin, gas, emergency, inflation, regional, drug
+
+Top words associated with each topic (LDA):
+Topic 1: vaccine, covid19, dr, rescue, covid, datum, rescue plan, american rescue, medical, public health
+Topic 2: pacific, advisor, summit, food, regional, space, digital, sustainable, trade, enhance
+Topic 3: clean energy, chain, supply chain, manufacturing, water, industry, labor, workforce, environmental, bipartisan
+Topic 4: laughter, democracy, love, young, vote, freedom, friend, honor, thank thank, folk
+Topic 5: violence, statement, executive order, safety, emergency, release, enforcement, biden harris, harris administration, prevent
+Topic 6: university, director, student, district, board, college, education, committee, career, york
+Topic 7: eu, europe, commission, recovery, european union, market, financial, green, gas, russian
+Topic 8: price, inflation, drug, republicans, cut, tax, folk, republican, reduction, lower
+Topic 9: prime, prime minister, mr, china, statement, peace, relationship, summit, bilateral, humanitarian
+Topic 10: ahead, certainly, conversation, yeah, obviously, okay, yesterday, press, couple, specific
+
+
+min_df: 0.1, max_df: 0.3
+Top words associated with each topic (Count Vectorization):
+Topic 1: question, talk, ahead, sure, thing, ask, white house, ukraine, happen, clear
+Topic 2: care, child, school, development, infrastructure, worker, clean, serve, expand, fund
+Topic 3: ukraine, russia, international, european, eu, cooperation, technology, development, partnership, supply
+Topic 4: ukraine, cost, price, inflation, drug, russia, pay, clean, reduction, war
+Topic 5: serve, university, school, board, director, district, student, secretary, court, justice
+Topic 6: care, child, ukraine, ahead, russia, worker, assistance, funding, certainly, rescue plan
+Topic 7: ahead, infrastructure, white house, clean, certainly, inflation, clean energy, reduction, agency, bipartisan
+Topic 8: drug, price, cost, ukraine, inflation, serve, vaccine, university, russia, reduction
+Topic 9: care, senior, drug, executive, woman, order, statement, vice, pacific, official
+Topic 10: european, eu, union, commission, europe, child, tax, ahead, certainly, supply
+
+
+Top words associated with each topic (TF-IDF Vectorization):
+Topic 1: talk, ukraine, question, thing, european, vaccine, russia, ahead, infrastructure, white house
+Topic 2: european, eu, ukraine, cooperation, commission, europe, minister, partnership, russia, international
+Topic 3: ukraine, russia, european, russian, question, war, europe, talk, putin, prime minister
+Topic 4: european, eu, europe, vaccine, union, commission, green, european union, clean, recovery
+Topic 5: emergency, vaccine, assistance, question, funding, available, joseph, local, order, jr
+Topic 6: prime minister, prime, pacific, minister, cooperation, partnership, region, vice president, clean, vice
+Topic 7: vaccine, question, eu, european, covid19, dr, commission, serve, university, ahead
+Topic 8: vice, vice president, woman, emergency, vaccine, care, assistance, harris, violence, covid19
+Topic 9: vice, vice president, harris, question, infrastructure, price, inflation, ahead, ukraine, clean
+Topic 10: vaccine, ukraine, covid19, russia, care, dr, child, pandemic, school, worker
+
+Top words associated with each topic (LDA):
+Topic 1: serve, university, director, secretary, board, vice, district, school, council, senior
+Topic 2: minister, meeting, prime, prime minister, vice president, vice, senior, national security, region, official
+Topic 3: care, funding, child, harris, student, fund, assistance, school, local, expand
+Topic 4: laughter, thing, talk, fight, woman, lot, folk, tell, happen, vote
+Topic 5: ukraine, european, russia, eu, europe, commission, union, russian, war, european union
+Topic 6: order, executive, violence, executive order, military, statement, white house, justice, congress, force
+Topic 7: technology, development, partnership, sector, international, initiative, develop, private, cooperation, pacific
+Topic 8: vaccine, covid19, pandemic, dr, question, covid, percent, datum, case, response
+Topic 9: question, talk, ahead, sure, ask, thing, ukraine, clear, certainly, hear
+Topic 10: pay, cost, infrastructure, price, inflation, drug, worker, clean, low, tax
+
+
+
