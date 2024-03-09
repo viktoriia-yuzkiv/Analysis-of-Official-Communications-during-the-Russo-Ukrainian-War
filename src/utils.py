@@ -8,7 +8,6 @@ import nltk
 from nltk.stem import WordNetLemmatizer, SnowballStemmer, PorterStemmer
 from nltk.corpus import stopwords
 
-from statsmodels.tsa.stattools import grangercausalitytests, adfuller
 
 ### Data preprocessing
 
@@ -127,55 +126,3 @@ def group_data(df, period='D'):
     result['Mentions Share'] = result['Mentions Count'] / result['Total Count']
 
     return result
-
-
-### Granger Causality Test
-
-def granger_causality_matrix(data, variables, maxlag, test='ssr_chi2test', verbose=False):
-    """
-    Check Granger Causality of all possible combinations of the Time series.
-
-    The rows represent the response variables, and the columns represent the predictors.
-    The values in the table are the P-Values. P-Values less than the significance level (0.05) imply
-    rejection of the Null Hypothesis, suggesting that the coefficients of the corresponding past values are
-    non-zero, indicating that the X variable causes Y.
-
-    Parameters:
-    - data (DataFrame): A pandas DataFrame containing the time series variables.
-    - variables (list): A list containing the names of the time series variables.
-    - maxlag (int): The maximum lag to consider for Granger Causality testing.
-    - test (str): The statistical test to use. Default is 'ssr_chi2test'.
-    - verbose (bool): Whether to print verbose output. Default is False.
-
-    Returns:
-    DataFrame: A DataFrame containing the P-Values for Granger Causality tests between the variables.
-    """
-    df = pd.DataFrame(np.zeros((len(variables), len(variables))), columns=variables, index=variables)
-    for c in df.columns:
-        for r in df.index:
-            test_result = grangercausalitytests(data[[r, c]], maxlag=maxlag, verbose=False)
-            p_values = [round(test_result[i+1][0][test][1], 4) for i in range(maxlag)]
-            if verbose: print(f'Y = {r}, X = {c}, P Values = {p_values}')
-            min_p_value = np.min(p_values)
-            df.loc[r, c] = min_p_value
-    df.columns = [var + '_x' for var in variables]
-    df.index = [var + '_y' for var in variables]
-    return df
-
-
-def check_stationarity(data):
-    """
-    Perform the Augmented Dickey-Fuller test to check for stationarity in a time series.
-
-    Parameters:
-    - data (array-like): The time series data to be tested.
-
-    Returns:
-    - bool: True if the time series is stationary, False otherwise.
-    """
-    result = adfuller(data)
-    p_value = result[1]
-    if p_value < 0.05:
-        return True  # Reject the null hypothesis (stationary)
-    else:
-        return False  # Fail to reject the null hypothesis (non-stationary)
