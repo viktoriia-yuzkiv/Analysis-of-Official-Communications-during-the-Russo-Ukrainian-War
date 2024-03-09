@@ -1,0 +1,471 @@
+Analyzing dataset: joint_data
+
+min_df: 0.005, max_df: 0.4
+Top words associated with each topic (Count Vectorization):
+Topic 1: think, want, look, question, talk, ahead, house, plan, sure, thing
+Topic 2: health, program, energy, investment, care, climate, billion, law, access, infrastructure
+Topic 3: applause, america, job, pay, laughter, cost, drug, folk, thing, inflation
+Topic 4: energy, climate, ukraine, global, russia, clean, european, investment, international, technology
+Topic 5: law, serve, department, university, house, white, white house, school, program, federal
+Topic 6: cost, tweet, inflation, drug, act, care, price, reduction, inflation reduction, reduction act
+Topic 7: health, care, ukraine, child, mental, russia, mental health, woman, applause, access
+Topic 8: drug, law, serve, university, health, tweet, vaccine, inflation, act, cost
+Topic 9: ukraine, russia, european, price, putin, russian, sanction, school, cost, war
+Topic 10: think, term, senior, care, serve, senior administration, administration official, official, jen, issue
+
+
+Top words associated with each topic (TF-IDF Vectorization):
+Topic 1: think, see, want, applause, would, look, talk, question, ukraine, thing
+Topic 2: eu, european, energy, global, ukraine, climate, cooperation, commission, europe, investment
+Topic 3: applause, serve, federal, university, america, health, program, law, care, department
+Topic 4: applause, european, eu, energy, europe, union, investment, job, america, laughter
+Topic 5: vaccine, vaccinate, vaccination, plan, eu, dose, european, federal, question, fema
+Topic 6: fema, applause, federal, emergency, fema news, ukraine, federal funding, sharing basis, assistance, cost sharing
+Topic 7: ukraine, european, eu, serve, commission, europe, university, russia, nominee, russian
+Topic 8: vaccine, applause, vaccinate, vaccination, covid19, dose, health, eu, dr, variant
+Topic 9: ukraine, national emergency, executive order, executive, care, emergency, declare executive, health, continue effect, order
+Topic 10: national emergency, executive order, emergency, declare executive, continue effect, executive, effect beyond, anniversary date, notice state, think
+
+Top words associated with each topic (LDA):
+Topic 1: job, pay, cost, billion, worker, infrastructure, america, investment, plan, business
+Topic 2: health, care, program, access, white, white house, house, service, woman, violence
+Topic 3: serve, university, director, board, department, secretary, law, district, assistant, nominee
+Topic 4: applause, think, want, look, america, thing, laughter, talk, mean, let
+Topic 5: think, question, want, talk, look, ahead, speak, ukraine, house, sure
+Topic 6: israel, minister, president biden, statement, prime minister, prime, ukraine, meeting, national security, discuss
+Topic 7: european, eu, europe, ukraine, commission, union, energy, global, russia, european union
+Topic 8: vaccine, vaccinate, question, covid19, week, vaccination, test, health, covid, jen
+Topic 9: climate, energy, global, investment, technology, development, partnership, clean, sector, pacific
+Topic 10: federal, assistance, department, action, order, agency, emergency, executive, executive order, risk
+
+
+min_df: 0.005, max_df: 0.5
+Top words associated with each topic (Count Vectorization):
+Topic 1: know, say, think, right, want, look, time, question, thank, talk
+Topic 2: health, community, program, million, investment, energy, care, climate, provide, access
+Topic 3: applause, america, job, pay, know, family, laughter, cost, folk, drug
+Topic 4: energy, climate, ukraine, security, global, russia, clean, investment, world, european
+Topic 5: vaccine, thank, vaccinate, global, world, covid19, applause, vaccination, dr, dose
+Topic 6: cost, inflation, energy, price, drug, tweet, reduction, act, inflation reduction, reduction act
+Topic 7: health, care, tweet, ukraine, family, drug, child, security, mental, mental health
+Topic 8: law, serve, university, vaccine, drug, inflation, energy, reduction, climate, inflation reduction
+Topic 9: ukraine, russia, plan, serve, european, school, university, member, child, tax
+Topic 10: health, say, right, global, house, ahead, applause, white, white house, climate
+
+
+Top words associated with each topic (TF-IDF Vectorization):
+Topic 1: go, know, say, get, think, thank, see, want, applause, would
+Topic 2: energy, eu, european, security, global, climate, ukraine, us, investment, cooperation
+Topic 3: applause, federal, serve, community, health, university, program, care, department, america
+Topic 4: serve, security, national, department, us, sullivan, national security, federal, university, director
+Topic 5: applause, vice, serve, laughter, sullivan, thank, america, mr, security, minister
+Topic 6: applause, fema, federal, fema news, emergency, federal funding, sharing basis, cost sharing, assistance, ukraine
+Topic 7: european, ukraine, eu, serve, commission, university, europe, nominee, member, district
+Topic 8: vaccine, vaccinate, vaccination, covid19, dose, health, applause, dr, thank, variant
+Topic 9: ukraine, russia, care, national emergency, executive order, russian, violence, executive, woman, health
+Topic 10: national emergency, executive order, emergency, national, declare executive, continue effect, executive, effect beyond, anniversary date, notice state
+
+Top words associated with each topic (LDA):
+Topic 1: energy, climate, investment, infrastructure, clean, community, million, job, billion, project
+Topic 2: know, say, applause, thank, think, america, right, time, want, look
+Topic 3: security, ukraine, israel, president biden, minister, prime, prime minister, meeting, national, national security
+Topic 4: serve, national, university, member, law, department, director, house, white, white house
+Topic 5: european, eu, europe, energy, ukraine, commission, union, plan, european union, investment
+Topic 6: vaccine, know, thank, covid19, vaccinate, health, question, vaccination, test, day
+Topic 7: vice, vice president, harris, term, migration, mexico, president harris, secretary, america, border
+Topic 8: health, care, program, administration, million, community, federal, family, access, provide
+Topic 9: say, know, think, question, want, right, talk, look, ahead, time
+Topic 10: global, security, partnership, technology, economic, pacific, international, partner, development, world
+
+
+min_df: 0.005, max_df: 0.6
+Top words associated with each topic (Count Vectorization):
+Topic 1: know, say, think, right, want, look, time, thank, question, continue
+Topic 2: health, community, program, new, biden, million, energy, investment, care, climate
+Topic 3: security, united, ukraine, united states, global, continue, russia, question, international, ahead
+Topic 4: applause, united, energy, united states, climate, world, america, ukraine, global, security
+Topic 5: vaccine, thank, vaccinate, applause, covid19, country, vaccination, dr, dose, world
+Topic 6: energy, cost, climate, inflation, price, clean, investment, reduction, drug, tweet
+Topic 7: health, care, tweet, biden, family, ukraine, drug, child, mental, president biden
+Topic 8: law, vaccine, drug, inflation, serve, university, reduction, inflation reduction, reduction act, cost
+Topic 9: ukraine, plan, russia, school, european, child, serve, university, member, american
+Topic 10: health, right, global, say, applause, climate, house, law, woman, continue
+
+
+Top words associated with each topic (TF-IDF Vectorization):
+Topic 1: go, know, say, get, think, thank, see, one, well, want
+Topic 2: energy, eu, european, security, united, global, climate, united states, us, ukraine
+Topic 3: applause, federal, serve, community, health, university, state, program, department, care
+Topic 4: security, serve, national, sullivan, national security, us, university, united, department, director
+Topic 5: applause, united, united states, america, laughter, thank, vice, nation, woman, world
+Topic 6: applause, fema, federal, fema news, emergency, federal funding, sharing basis, cost sharing, assistance, ukraine
+Topic 7: european, eu, ukraine, serve, commission, university, europe, nominee, member, district
+Topic 8: vaccine, vaccinate, vaccination, covid19, dose, health, applause, dr, variant, thank
+Topic 9: ukraine, russia, care, national emergency, executive order, russian, continue, violence, woman, health
+Topic 10: national emergency, executive order, emergency, declare executive, continue effect, executive, effect beyond, national, anniversary date, federal register
+
+Top words associated with each topic (LDA):
+Topic 1: european, energy, eu, europe, commission, union, climate, investment, global, plan
+Topic 2: vaccine, covid19, health, vaccinate, vaccination, state, know, test, need, question
+Topic 3: ukraine, russia, united, war, united states, russian, military, continue, putin, nato
+Topic 4: united, united states, security, global, partnership, biden, country, economic, pacific, cooperation
+Topic 5: health, biden, care, violence, community, law, administration, act, gun, state
+Topic 6: community, million, program, new, administration, investment, biden, billion, infrastructure, energy
+Topic 7: serve, university, member, national, director, united, state, secretary, department, united states
+Topic 8: say, know, house, look, ahead, right, continue, want, time, talk
+Topic 9: know, say, think, thank, question, want, administration, talk, right, israel
+Topic 10: know, applause, thank, say, america, think, want, world, time, right
+
+
+min_df: 0.01, max_df: 0.4
+Top words associated with each topic (Count Vectorization):
+Topic 1: think, want, look, question, talk, ahead, house, plan, sure, thing
+Topic 2: health, program, energy, investment, care, climate, billion, law, access, infrastructure
+Topic 3: applause, america, job, pay, laughter, cost, drug, folk, thing, inflation
+Topic 4: energy, climate, ukraine, global, russia, clean, european, investment, international, technology
+Topic 5: law, serve, department, university, house, white, white house, school, program, federal
+Topic 6: cost, tweet, inflation, drug, act, care, price, reduction, inflation reduction, reduction act
+Topic 7: health, care, ukraine, child, mental, russia, mental health, woman, applause, tweet
+Topic 8: drug, law, serve, university, vaccine, health, tweet, inflation, act, reduction
+Topic 9: ukraine, russia, european, price, putin, russian, sanction, school, cost, war
+Topic 10: think, senior, care, term, serve, senior administration, administration official, official, issue, child
+
+
+Top words associated with each topic (TF-IDF Vectorization):
+Topic 1: think, see, want, applause, would, look, talk, question, ukraine, thing
+Topic 2: european, eu, energy, ukraine, global, climate, cooperation, commission, europe, investment
+Topic 3: applause, serve, federal, university, health, program, america, department, law, director
+Topic 4: serve, federal, department, university, director, nominee, question, assistant, go ahead, secretary
+Topic 5: vaccine, vaccinate, vaccination, question, plan, dose, federal, fema, eu, health
+Topic 6: fema, federal, applause, emergency, fema news, federal funding, ukraine, assistance, cost sharing, biden jr
+Topic 7: ukraine, european, eu, serve, commission, europe, university, russia, nominee, russian
+Topic 8: vaccine, applause, vaccinate, vaccination, covid19, dose, health, eu, dr, variant
+Topic 9: ukraine, russia, care, health, health care, russian, woman, violence, americans, child
+Topic 10: national emergency, executive order, woman, executive, violence, order, emergency, declare executive, federal register, vice president
+
+Top words associated with each topic (LDA):
+Topic 1: serve, university, director, secretary, department, law, house, board, office, assistant
+Topic 2: vaccine, health, covid19, vaccinate, vaccination, test, dr, question, dose, cdc
+Topic 3: program, health, care, federal, plan, access, billion, cost, president biden, service
+Topic 4: applause, think, america, want, look, job, laughter, thing, mean, talk
+Topic 5: violence, woman, israel, gun, law, life, vice president, vice, statement, protect
+Topic 6: think, question, want, talk, look, ahead, house, speak, sure, ask
+Topic 7: pacific, minister, cooperation, meeting, president biden, prime, prime minister, partnership, region, commitment
+Topic 8: ukraine, russia, war, putin, russian, nato, sanction, military, assistance, humanitarian
+Topic 9: climate, energy, investment, clean, technology, global, development, sector, supply, infrastructure
+Topic 10: european, eu, europe, commission, union, energy, plan, european union, investment, global
+
+
+min_df: 0.01, max_df: 0.5
+Top words associated with each topic (Count Vectorization):
+Topic 1: know, say, think, right, want, look, time, question, thank, talk
+Topic 2: health, community, program, million, investment, energy, care, climate, provide, access
+Topic 3: applause, america, job, pay, know, family, laughter, cost, folk, drug
+Topic 4: energy, climate, ukraine, security, global, russia, clean, investment, world, european
+Topic 5: vaccine, thank, vaccinate, global, world, covid19, applause, vaccination, dr, dose
+Topic 6: cost, inflation, energy, price, drug, tweet, reduction, act, inflation reduction, reduction act
+Topic 7: health, care, tweet, ukraine, family, drug, child, security, mental, mental health
+Topic 8: law, university, serve, vaccine, drug, inflation, energy, climate, reduction, inflation reduction
+Topic 9: ukraine, russia, plan, european, serve, school, member, university, child, tax
+Topic 10: health, say, right, global, house, ahead, applause, climate, white, white house
+
+
+Top words associated with each topic (TF-IDF Vectorization):
+Topic 1: go, know, say, get, think, thank, see, want, applause, would
+Topic 2: european, energy, eu, security, global, climate, ukraine, us, cooperation, national
+Topic 3: applause, serve, federal, community, university, health, program, department, care, school
+Topic 4: security, serve, sullivan, national, national security, us, advisor, university, director, department
+Topic 5: applause, laughter, america, thank, vice, nation, woman, world, vice president, leader
+Topic 6: applause, fema, federal, emergency, fema news, federal funding, assistance, cost sharing, joseph biden, biden jr
+Topic 7: european, ukraine, eu, serve, commission, university, europe, nominee, member, russia
+Topic 8: vaccine, vaccinate, vaccination, covid19, health, dose, dr, variant, applause, thank
+Topic 9: ukraine, russia, care, russian, health, family, violence, woman, ukrainian, health care
+Topic 10: sullivan, ukraine, mr sullivan, vaccine, mr, security advisor, advisor, get, advisor jake, national security
+
+Top words associated with each topic (LDA):
+Topic 1: say, know, question, right, look, want, think, ahead, talk, house
+Topic 2: european, eu, europe, commission, union, european union, plan, member, recovery, investment
+Topic 3: federal, national, violence, order, government, executive, law, department, executive order, security
+Topic 4: ukraine, say, think, know, thank, russia, israel, question, want, administration
+Topic 5: climate, energy, investment, global, technology, development, clean, sector, infrastructure, partnership
+Topic 6: health, community, program, administration, million, care, access, provide, vaccine, child
+Topic 7: job, pay, cost, american, america, economy, inflation, worker, billion, price
+Topic 8: security, pacific, meeting, minister, leader, president biden, cooperation, prime, prime minister, commitment
+Topic 9: know, applause, say, thank, think, right, want, time, world, look
+Topic 10: serve, university, member, director, national, secretary, law, department, house, board
+
+
+min_df: 0.01, max_df: 0.6
+Top words associated with each topic (Count Vectorization):
+Topic 1: know, say, think, right, want, look, time, thank, question, continue
+Topic 2: health, community, program, biden, new, million, energy, investment, care, climate
+Topic 3: security, united, ukraine, united states, global, continue, russia, question, international, ahead
+Topic 4: applause, united, energy, united states, climate, world, america, ukraine, global, security
+Topic 5: vaccine, thank, vaccinate, applause, covid19, country, vaccination, dr, dose, world
+Topic 6: energy, cost, climate, inflation, price, clean, investment, reduction, drug, tweet
+Topic 7: health, care, tweet, biden, family, ukraine, drug, child, mental, president biden
+Topic 8: law, vaccine, drug, inflation, serve, university, reduction, inflation reduction, reduction act, cost
+Topic 9: ukraine, plan, russia, european, school, child, serve, member, university, tax
+Topic 10: health, right, global, applause, say, law, house, climate, woman, continue
+
+
+Top words associated with each topic (TF-IDF Vectorization):
+Topic 1: go, know, say, get, think, thank, see, one, well, want
+Topic 2: security, energy, eu, european, united, global, united states, climate, us, ukraine
+Topic 3: applause, federal, serve, community, health, university, state, program, department, care
+Topic 4: european, eu, energy, europe, investment, union, green, commission, billion, clean
+Topic 5: applause, america, laughter, united, thank, united states, nation, vice, world, woman
+Topic 6: applause, fema, federal, emergency, fema news, federal funding, cost sharing, joseph biden, biden jr, assistance
+Topic 7: european, ukraine, eu, serve, commission, university, europe, nominee, member, russia
+Topic 8: vaccine, vaccinate, vaccination, covid19, health, dose, dr, variant, thank, applause
+Topic 9: ukraine, russia, care, russian, family, violence, woman, health, ukrainian, gun
+Topic 10: sullivan, mr sullivan, ukraine, security advisor, mr, advisor, vaccine, advisor jake, national security, jake sullivan
+
+Top words associated with each topic (LDA):
+Topic 1: say, know, think, question, want, talk, look, right, thank, continue
+Topic 2: federal, state, biden, administration, community, violence, law, department, national, house
+Topic 3: united, united states, security, global, pacific, biden, partnership, country, economic, cooperation
+Topic 4: energy, climate, investment, infrastructure, new, clean, community, million, billion, project
+Topic 5: serve, university, member, director, national, united, secretary, state, board, department
+Topic 6: health, million, care, vaccine, community, program, administration, child, provide, plan
+Topic 7: european, eu, senior administration, administration official, europe, union, commission, senior, global, thank
+Topic 8: know, thank, applause, say, right, think, nation, want, country, time
+Topic 9: ukraine, russia, israel, security, war, united, continue, united states, military, gaza
+Topic 10: say, know, job, pay, america, american, cost, applause, look, price
+
+
+min_df: 0.05, max_df: 0.4
+Top words associated with each topic (Count Vectorization):
+Topic 1: think, want, look, question, talk, ahead, house, plan, sure, thing
+Topic 2: health, program, energy, investment, care, climate, billion, access, law, infrastructure
+Topic 3: applause, america, job, pay, laughter, cost, folk, drug, thing, inflation
+Topic 4: energy, climate, ukraine, global, russia, clean, investment, european, international, technology
+Topic 5: law, serve, department, university, house, white, white house, federal, school, program
+Topic 6: cost, inflation, drug, act, price, reduction, inflation reduction, reduction act, energy, care
+Topic 7: health, care, ukraine, child, russia, mental, mental health, woman, access, president biden
+Topic 8: drug, health, law, act, inflation, serve, vaccine, university, cost, price
+Topic 9: ukraine, russia, european, price, school, russian, putin, sanction, war, europe
+Topic 10: think, senior, serve, care, term, drug, administration official, price, official, university
+
+
+Top words associated with each topic (TF-IDF Vectorization):
+Topic 1: think, see, want, would, applause, look, talk, ukraine, question, energy
+Topic 2: eu, european, energy, global, ukraine, cooperation, climate, discuss, commission, partnership
+Topic 3: serve, federal, health, university, department, applause, program, director, care, service
+Topic 4: european, eu, energy, europe, applause, investment, union, clean, billion, green
+Topic 5: applause, america, laughter, vice, nation, minister, vice president, sullivan, prime minister, mr
+Topic 6: ukraine, european, serve, eu, university, commission, nominee, europe, russia, board
+Topic 7: federal, fema, ukraine, emergency, applause, assistance, biden jr, joseph biden, joseph, jr
+Topic 8: vaccine, health, covid19, vaccinate, vaccination, dose, applause, eu, dr, variant
+Topic 9: ukraine, health, care, russia, health care, americans, woman, child, russian, access
+Topic 10: sullivan, mr, security advisor, advisor, national security, vaccine, jake sullivan, jake, applause, vaccinate
+
+Top words associated with each topic (LDA):
+Topic 1: health, program, care, access, federal, service, child, department, student, plan
+Topic 2: job, pay, cost, america, infrastructure, billion, economy, worker, inflation, business
+Topic 3: ukraine, russia, israel, president biden, minister, prime, prime minister, war, meeting, national security
+Topic 4: european, eu, europe, union, commission, european union, plan, recovery, der, von
+Topic 5: applause, think, want, america, look, laughter, nation, thing, let, mean
+Topic 6: serve, university, director, secretary, vice, house, department, law, board, office
+Topic 7: think, question, want, talk, look, ahead, house, speak, sure, ask
+Topic 8: technology, international, pacific, federal, cooperation, address, partner, promote, action, order
+Topic 9: climate, energy, investment, clean, global, development, clean energy, partnership, infrastructure, project
+Topic 10: vaccine, covid19, vaccinate, health, vaccination, test, dr, dose, pandemic, cdc
+
+
+min_df: 0.05, max_df: 0.5
+Top words associated with each topic (Count Vectorization):
+Topic 1: know, say, think, right, want, look, time, question, thank, talk
+Topic 2: health, community, program, million, investment, energy, care, climate, provide, access
+Topic 3: applause, america, job, pay, know, family, laughter, folk, cost, care
+Topic 4: energy, climate, ukraine, security, global, world, clean, investment, russia, european
+Topic 5: vaccine, thank, vaccinate, covid19, global, vaccination, world, dose, dr, applause
+Topic 6: cost, energy, inflation, price, drug, reduction, plan, act, inflation reduction, reduction act
+Topic 7: health, care, ukraine, family, child, russia, mental, security, mental health, drug
+Topic 8: drug, vaccine, law, inflation, serve, university, cost, act, reduction, inflation reduction
+Topic 9: ukraine, russia, serve, school, university, european, plan, member, putin, american
+Topic 10: thank, administration, senior, official, think, administration official, ukraine, russia, community, drug
+
+
+Top words associated with each topic (TF-IDF Vectorization):
+Topic 1: go, know, say, get, thank, think, see, want, applause, right
+Topic 2: security, energy, eu, european, global, us, climate, national, cooperation, ukraine
+Topic 3: federal, serve, community, health, department, university, program, care, applause, administration
+Topic 4: european, eu, energy, europe, investment, union, commission, green, billion, plan
+Topic 5: applause, america, thank, laughter, vice, nation, woman, world, vice president, together
+Topic 6: serve, european, university, eu, nominee, commission, member, ukraine, assistant, europe
+Topic 7: ukraine, applause, federal, fema, emergency, russia, assistance, biden jr, joseph biden, joseph
+Topic 8: vaccine, health, covid19, vaccinate, vaccination, dose, woman, dr, variant, care
+Topic 9: ukraine, russia, care, health, russian, family, health care, americans, ukrainian, putin
+Topic 10: sullivan, security advisor, national security, advisor, mr, national, security, jake sullivan, jake, vaccine
+
+Top words associated with each topic (LDA):
+Topic 1: community, program, million, health, administration, care, access, billion, investment, provide
+Topic 2: job, pay, say, know, cost, america, american, price, inflation, economy
+Topic 3: ukraine, think, know, thank, say, question, russia, want, israel, administration
+Topic 4: know, applause, thank, say, right, think, want, nation, world, time
+Topic 5: energy, european, global, eu, investment, europe, union, commission, ukraine, plan
+Topic 6: security, climate, pacific, partnership, economic, leader, president biden, commitment, cooperation, global
+Topic 7: vaccine, health, covid19, vaccinate, vaccination, test, dr, million, dose, pandemic
+Topic 8: say, know, right, house, ahead, talk, want, look, question, white
+Topic 9: federal, administration, government, action, department, national, agency, order, use, effort
+Topic 10: serve, university, member, director, national, secretary, law, board, department, office
+
+
+min_df: 0.05, max_df: 0.6
+Top words associated with each topic (Count Vectorization):
+Topic 1: know, say, think, right, want, look, time, thank, question, continue
+Topic 2: health, community, program, new, biden, million, energy, investment, care, climate
+Topic 3: security, united, ukraine, united states, global, continue, russia, question, international, ahead
+Topic 4: applause, united, energy, united states, climate, world, america, global, ukraine, security
+Topic 5: vaccine, thank, vaccinate, covid19, vaccination, country, applause, dr, dose, health
+Topic 6: energy, cost, climate, inflation, investment, clean, price, reduction, plan, million
+Topic 7: health, care, family, ukraine, biden, child, mental, president biden, drug, mental health
+Topic 8: drug, vaccine, inflation, law, cost, act, reduction, serve, inflation reduction, reduction act
+Topic 9: ukraine, russia, plan, school, serve, european, university, member, million, american
+Topic 10: health, right, global, say, applause, law, house, woman, eu, climate
+
+
+Top words associated with each topic (TF-IDF Vectorization):
+Topic 1: go, know, say, get, thank, think, see, one, well, want
+Topic 2: security, united, united states, energy, eu, us, biden, global, european, national
+Topic 3: federal, serve, community, health, department, state, program, university, care, administration
+Topic 4: european, eu, energy, europe, investment, commission, union, green, plan, european union
+Topic 5: applause, america, thank, laughter, united, vice, nation, united states, world, woman
+Topic 6: serve, european, university, eu, nominee, member, commission, assistant, director, board
+Topic 7: ukraine, applause, federal, fema, emergency, russia, european, assistance, biden jr, joseph biden
+Topic 8: vaccine, health, covid19, vaccinate, vaccination, dose, dr, variant, woman, pandemic
+Topic 9: fema, federal, emergency, climate, thank, know, disaster, applause, pacific, recovery
+Topic 10: sullivan, security advisor, national security, advisor, mr, applause, national, security, jake sullivan, jake
+
+Top words associated with each topic (LDA):
+Topic 1: united, united states, security, biden, pacific, president biden, minister, leader, meeting, prime
+Topic 2: health, community, administration, care, program, access, biden, state, provide, service
+Topic 3: know, applause, thank, say, think, america, want, time, right, world
+Topic 4: vaccine, covid19, vaccinate, health, vaccination, test, million, thank, question, need
+Topic 5: ukraine, russia, thank, war, senior, putin, russian, administration, official, continue
+Topic 6: national, biden, house, white house, white, security, secretary, state, federal, department
+Topic 7: million, job, investment, new, infrastructure, billion, cost, biden, energy, community
+Topic 8: climate, energy, global, investment, european, technology, new, country, sector, development
+Topic 9: serve, vice, university, vice president, member, law, united, united states, board, school
+Topic 10: say, know, think, right, talk, want, look, question, continue, ahead
+
+
+min_df: 0.1, max_df: 0.4
+Top words associated with each topic (Count Vectorization):
+Topic 1: think, want, look, question, talk, ahead, house, plan, sure, thing
+Topic 2: health, program, energy, investment, climate, care, billion, access, law, infrastructure
+Topic 3: global, ukraine, energy, climate, russia, international, european, cooperation, technology, eu
+Topic 4: energy, job, america, climate, pay, cost, inflation, clean, investment, economy
+Topic 5: law, serve, university, department, house, school, white, white house, justice, federal
+Topic 6: ahead, cost, house, white house, white, inflation, plan, care, act, energy
+Topic 7: ukraine, care, health, russia, child, war, woman, president biden, putin, russian
+Topic 8: health, drug, vaccine, act, law, inflation, climate, cost, reduction, price
+Topic 9: ukraine, russia, vaccine, school, price, european, law, cost, russian, putin
+Topic 10: think, senior, price, drug, term, cost, care, official, serve, inflation
+
+
+Top words associated with each topic (TF-IDF Vectorization):
+Topic 1: think, see, want, would, look, talk, ukraine, question, america, health
+Topic 2: eu, energy, european, global, cooperation, climate, discuss, partnership, commission, ukraine
+Topic 3: federal, serve, health, department, university, program, care, director, service, law
+Topic 4: european, eu, energy, investment, europe, job, billion, clean, union, plan
+Topic 5: federal, ukraine, emergency, assistance, russia, vaccine, question, funding, available, russian
+Topic 6: serve, european, ukraine, university, eu, europe, commission, district, director, board
+Topic 7: vaccine, eu, health, covid19, question, european, dr, commission, global, university
+Topic 8: health, woman, vaccine, care, life, covid19, child, violence, nation, fight
+Topic 9: federal, emergency, recovery, eu, joseph, vice, news, jr, european, order
+Topic 10: vice, vice president, harris, term, district, ukraine, eu, care, plan, commission
+
+Top words associated with each topic (LDA):
+Topic 1: vaccine, cost, price, drug, pay, americans, inflation, percent, low, tax
+Topic 2: ukraine, russia, war, national security, military, putin, russian, humanitarian, president biden, assistance
+Topic 3: think, want, look, america, thing, talk, mean, laughter, lot, job
+Topic 4: nation, woman, life, fight, joe, america, stand, statement, freedom, americans
+Topic 5: serve, university, director, house, secretary, law, white, white house, department, office
+Topic 6: global, pacific, partnership, cooperation, commitment, region, meeting, international, summit, share
+Topic 7: energy, investment, climate, infrastructure, clean, billion, job, project, business, program
+Topic 8: think, question, want, look, talk, ahead, house, sure, speak, ask
+Topic 9: european, eu, europe, union, energy, commission, global, plan, investment, european union
+Topic 10: health, federal, program, care, access, department, service, school, action, plan
+
+
+min_df: 0.1, max_df: 0.5
+Top words associated with each topic (Count Vectorization):
+Topic 1: know, say, think, right, want, look, time, question, thank, talk
+Topic 2: health, community, program, million, energy, investment, care, climate, provide, access
+Topic 3: security, ukraine, global, russia, international, question, ahead, partner, effort, cooperation
+Topic 4: energy, climate, world, investment, clean, america, job, economy, global, ukraine
+Topic 5: vaccine, thank, health, covid19, dr, global, million, know, world, pandemic
+Topic 6: ahead, plan, cost, energy, inflation, price, million, drug, care, reduction
+Topic 7: care, health, ukraine, family, child, russia, security, woman, drug, world
+Topic 8: vaccine, climate, health, drug, act, inflation, reduction, cost, law, energy
+Topic 9: vaccine, ukraine, university, school, serve, member, law, european, price, russia
+Topic 10: thank, ukraine, administration, russia, senior, official, drug, cost, think, community
+
+
+Top words associated with each topic (TF-IDF Vectorization):
+Topic 1: go, know, say, get, thank, think, see, want, right, would
+Topic 2: security, energy, us, eu, global, national, european, climate, cooperation, discuss
+Topic 3: federal, serve, community, health, department, program, university, administration, care, service
+Topic 4: european, eu, energy, europe, investment, billion, union, million, plan, clean
+Topic 5: federal, ukraine, emergency, assistance, russia, go, question, funding, available, recovery
+Topic 6: serve, european, university, eu, ukraine, member, commission, europe, board, district
+Topic 7: ukraine, woman, care, family, health, russia, violence, life, child, nation
+Topic 8: vaccine, health, covid19, eu, dr, question, european, pandemic, global, vice president
+Topic 9: federal, emergency, national, order, thank, joseph, executive order, jr, news, security
+Topic 10: vice, vice president, federal, term, harris, district, recovery, emergency, minister, assistance
+
+Top words associated with each topic (LDA):
+Topic 1: national, security, house, white, white house, national security, administration, executive, statement, advisor
+Topic 2: say, know, question, ahead, want, right, look, talk, think, time
+Topic 3: ukraine, russia, european, war, europe, eu, russian, putin, union, world
+Topic 4: energy, climate, investment, clean, infrastructure, project, billion, clean energy, supply, plan
+Topic 5: health, community, program, administration, million, provide, federal, access, care, department
+Topic 6: thank, think, know, say, question, administration, want, issue, talk, really
+Topic 7: serve, university, member, law, director, board, department, district, vice, national
+Topic 8: know, say, thank, right, america, want, think, world, time, like
+Topic 9: job, pay, cost, american, worker, price, inflation, economy, family, drug
+Topic 10: security, global, pacific, partnership, cooperation, economic, commitment, international, leader, share
+
+
+min_df: 0.1, max_df: 0.6
+Top words associated with each topic (Count Vectorization):
+Topic 1: know, say, think, right, want, look, time, thank, question, continue
+Topic 2: health, community, program, new, biden, million, energy, investment, climate, care
+Topic 3: united, united states, security, global, ukraine, russia, international, climate, energy, country
+Topic 4: america, energy, job, climate, world, pay, investment, clean, know, economy
+Topic 5: vaccine, thank, health, covid19, dr, country, million, know, global, percent
+Topic 6: energy, plan, continue, climate, ahead, cost, inflation, price, investment, clean
+Topic 7: care, health, family, child, biden, ukraine, president biden, united, americans, drug
+Topic 8: climate, vaccine, health, act, drug, reduction, inflation, thank, biden, energy
+Topic 9: vaccine, law, university, serve, school, member, price, drug, cost, inflation
+Topic 10: right, health, global, woman, say, climate, know, international, care, eu
+
+
+Top words associated with each topic (TF-IDF Vectorization):
+Topic 1: go, know, say, get, thank, think, see, one, well, want
+Topic 2: security, united, united states, biden, us, energy, national, global, eu, cooperation
+Topic 3: federal, community, health, serve, state, department, program, care, administration, university
+Topic 4: european, eu, energy, europe, investment, commission, union, plan, billion, green
+Topic 5: ukraine, federal, emergency, assistance, russia, go, question, funding, state, available
+Topic 6: serve, european, university, eu, member, commission, ukraine, europe, board, director
+Topic 7: ukraine, woman, care, family, life, health, russia, violence, child, nation
+Topic 8: vaccine, health, covid19, eu, dr, question, vice president, pandemic, global, vice
+Topic 9: federal, emergency, united states, united, order, news, joseph, jr, recovery, executive order
+Topic 10: vice, vice president, harris, federal, term, district, recovery, prime minister, prime, minister
+
+Top words associated with each topic (LDA):
+Topic 1: say, know, think, question, want, talk, right, continue, look, ahead
+Topic 2: biden, house, administration, white, federal, national, white house, state, action, act
+Topic 3: serve, university, member, director, national, united, united states, secretary, department, state
+Topic 4: job, pay, cost, american, economy, america, worker, inflation, price, drug
+Topic 5: community, program, million, administration, health, provide, new, help, care, funding
+Topic 6: united, security, united states, biden, president biden, ukraine, minister, meeting, prime, prime minister
+Topic 7: vaccine, covid19, health, thank, dr, know, pandemic, day, question, million
+Topic 8: know, say, thank, think, right, want, time, like, look, world
+Topic 9: european, eu, ukraine, europe, russia, commission, union, energy, plan, european union
+Topic 10: climate, energy, united, global, united states, technology, investment, country, partnership, development
+
+
+
