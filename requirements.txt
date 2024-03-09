@@ -10,3 +10,8 @@ spacy
 re
 warnings
 statsmodels
+csv
+sklearn
+os
+gensim
+scipy
