@@ -12,7 +12,9 @@ The prerequisites for running the project are listed in the requirements.txt fil
 1. **Data Scraping**: Contains scripts and documentation related to scraping official communications data.
 2. **Data Pre-processing**: Includes scripts and documentation for preprocessing the scraped data.
 3. **Time-line of the Coverage**: Provides insights and analysis regarding the timeline of media coverage.
-4. **Topics Analysis**
+4. **Topics Analysis**: Contains code and documentation for employing Latent Dirichlet Allocation (LDA) for topic analysis.
+5. **Granger Causality Test**: Includes code and documentation for applying Granger Causality Tests to analyze causal relationships.
+
 
 ## Contributors:
 - Viktoriia Yuzkiv
